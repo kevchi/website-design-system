@@ -38,7 +38,17 @@ a:link, a:visited {
     float: left;
 }
 
-[class$="container"] {
+/* Hide sub-iframes & default (all) when any other is clicked*/
+iframe, iframe:target ~ iframe[src$="boxes.html"] {
+    display:none;
+}
+
+/* show targeted iframe, or default */
+iframe[src$="boxes.html"], iframe:target {
+    display:block;
+}
+
+iframe[class$="container"] {
     border: 2px solid yellow;
     min-height: 200px;
     padding: 8px;
@@ -46,11 +56,26 @@ a:link, a:visited {
     transition: min-height 0.2s ease-out;
 }
 
-[class$="container"]:hover {
+iframe[class$="container"]:hover {
     min-height: 300px;
     cursor: default;
     overflow: auto;
     transition: min-height 0.15s ease-in;
+}
+
+div[class$="container"] {
+    border: 2px solid yellow;
+    max-height: 200px;
+    padding: 8px;
+    overflow:hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+div[class$="container"]:hover {
+    max-height: 300px;
+    cursor: default;
+    overflow: auto;
+    transition: max-height 0.15s ease-in;
 }
 
 .colorBox {
@@ -66,7 +91,6 @@ a:link, a:visited {
 iframe {
     border: none;
     width: 100%;
-    height: 100%;
 }
 
 /* Clearfix containers 
