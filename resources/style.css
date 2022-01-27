@@ -78,7 +78,6 @@ iframe[src$="boxes.html"], iframe:target {
     margin: -100px 0 0;
 }
 
-/* inner shadow */
 .inner-shadow {
     position: absolute;
     z-index: 2;
@@ -98,39 +97,26 @@ iframe[src$="boxes.html"], iframe:target {
     transition-delay: 0s;
     transition-duration: 0s;
 }
-/* -- */
 
-iframe[class$="container"] {
+/* Open & close containers */
+[class$="container"] {
     border: 1px solid rgba(72, 66, 66, 0.468);
-    border-width: 1px 1px;
     min-height: 200px;
+    max-height: 200px;
     padding: 8px;
     overflow:hidden;
     transition: min-height 0.2s ease-out;
 }
 
-iframe[class$="container"]:hover {
-    min-height: 564px;
+[class$="container"]:hover {
     cursor: default;
     overflow: auto;
+    min-height: 300px;
     transition: min-height 0.15s ease-in;
 }
 
-div[class$="container"] {
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-    min-height: 200px;
-    max-height: 200px;
-    padding: 8px;
-    overflow:hidden;
-    transition: max-height 0.2s ease-out;
-}
-
-div[class$="container"]:hover {
-    max-height: 300px;
-    cursor: default;
-    overflow: auto;
-    transition: max-height 0.15s ease-in;
+iframe[class$="container"]:hover {
+    min-height: 566px;
 }
 
 /* color box styling */
@@ -143,7 +129,7 @@ div[class$="container"]:hover {
     margin-right: 2px;
     margin-bottom: 2px;
     transition-duration: 0.2s;
-    /* center items */
+    /* center */
     text-align: center;
     display:flex;
     justify-content: center;
@@ -152,9 +138,12 @@ div[class$="container"]:hover {
     font-size: 0.8em;
 }
 
+/* color name */
 .colorBox > p:first-child{
     position:absolute;
     font-size: 1.4em;
+    opacity: 1;
+    transition-duration: 0.2s;
 }
 
 .colorcode {
@@ -170,6 +159,12 @@ div[class$="container"]:hover {
 
 .colorBox:hover > p[class] {
     opacity: 1;
+    transition-duration: 0.2s;
+}
+
+/* edge  blur on hover - slightly changes the color  
+.colorBox:hover {
+    box-shadow: inset 0px 0px 70px 0px #3f3b3b4f;
     transition-duration: 0.2s;
 }
 /* --- */
