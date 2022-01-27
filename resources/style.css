@@ -42,12 +42,14 @@ a:link, a:visited {
     border: 2px solid yellow;
     min-height: 200px;
     padding: 8px;
+    overflow:hidden;
     transition: min-height 0.2s ease-out;
 }
 
 [class$="container"]:hover {
     min-height: 300px;
     cursor: default;
+    overflow: auto;
     transition: min-height 0.15s ease-in;
 }
 
@@ -58,6 +60,7 @@ a:link, a:visited {
     width: 100px;
     border-radius: 10px;
     margin-right: 5px;
+    margin-top: 5px;
 }
 
 iframe {
