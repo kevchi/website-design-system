@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Ryan's Website Design System</title>
+    <title>Website Design System</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='resources/style.css'>
     <script src='main.js'></script>
@@ -17,16 +17,21 @@
         <section id="content">
             <!--Sidebar navigaition, sticky-->
             <nav>
-                <a href="#all" class="rel">all</a><br>
-                <a href="#blue" class="rel">blue</a><br>
-                <a href="#">text-styles</a>
+                <a href="#colors">Colors</a>
+                <ul>
+                    <li><a href="#all" class="rel">all</a></li>
+                    <li><a href="#blue" class="rel">blue</a></li>
+                    <li><a href="#yellow" class="rel">yellow</a></li>
+                </ul>
+                <br><a href="#">Text-styles</a>
             </nav>
             <section id="sections">
-                <section>
+                <section id="colors">
+                    
                     <h2>Colors</h2>
-                    <iframe id="blue" class="color-container" src="colorboxes_blue.html" seamless></iframe>
-                    <iframe id="all" class="color-container" src="colorboxes.html" seamless></iframe>                    
-
+                    <iframe id="blue" class="color-container" src="colors/colorboxes_blue.html" seamless></iframe>
+                    <iframe id="yellow" class="color-container" src="colors/colorboxes_yellow.html" seamless></iframe>
+                    <iframe id="all" class="color-container" src="colors/colorboxes.html" seamless></iframe>                    
                 </section>
                 <section>
                     <h2>Fonts</h2>
