@@ -109,7 +109,7 @@ iframe[class^="default"], iframe:target {
 /* Open & close containers */
 [class$="container"] {
     border: 1px solid rgba(72, 66, 66, 0.468);
-    min-height: 200px;
+    min-height: 566px;
     max-height: 200px;
     padding: 8px;
     overflow:hidden;
@@ -119,12 +119,8 @@ iframe[class^="default"], iframe:target {
 [class$="container"]:hover {
     cursor: default;
     overflow: auto;
-    min-height: 300px;
-    transition: min-height 0.15s ease-in;
-}
-
-iframe[class$="container"]:hover {
     min-height: 566px;
+    transition: min-height 0.15s ease-in;
 }
 
 iframe {
