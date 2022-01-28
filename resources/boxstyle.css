@@ -6,16 +6,594 @@ body:hover {
     overflow: auto;
 }
 
-.red {
-    background: red;
+/* ---- RED ---- */
+.IndianRed {
+    background: IndianRed;
+    color: white;
+}
+.LightCoral {
+    background: LightCoral;
+    color: white;
+}
+.Salmon {
+    background: Salmon;
+    color: white;
+}
+.DarkSalmon {
+    background: DarkSalmon;
+    color: white;
+}
+.LightSalmon {
+    background: LightSalmon;
+    color: white;
+}
+.Crimson {
+    background: Crimson;
+    color: white;
+}
+.Red {
+    background: Red;
+    color: white;
+}
+.FireBrick {
+    background: FireBrick;
+    color: white;
+}
+.DarkRed {
+    background: DarkRed;
     color: white;
 }
 
-.blue {
-    background: blue;
+/* ---- PINK ---- */
+.Pink {
+    background: Pink;
+    color: white;
+}
+.LightPink {
+    background: LightPink;
+    color: white;
+}
+.HotPink {
+    background: HotPink;
+    color: white;
+}
+.DeepPink {
+    background: DeepPink;
+    color: white;
+}
+.MediumVioletRed {
+    background: MediumVioletRed;
+    color: white;
+}
+.PaleVioletRed {
+    background: PaleVioletRed;
     color: white;
 }
 
-.yellow {
-    background: yellow;
+/* ---- ORANGE ---- */
+.LightSalmon {
+    background: LightSalmon;
+    color: white;
+}
+.Coral {
+    background: Coral;
+    color: white;
+}
+.Tomato {
+    background: Tomato;
+    color: white;
+}
+.OrangeRed {
+    background: OrangeRed;
+    color: white;
+}
+.DarkOrange {
+    background: DarkOrange;
+    color: white;
+}
+.Orange	 {
+    background: Orange	;
+    color: white;
+}
+
+/* ---- YELLOW ---- */
+.Gold {
+    background: Gold;
+    color: white;
+}
+.Yellow {
+    background: Yellow;
+    color: white;
+}
+.LightYellow {
+    background: LightYellow;
+    color: white;
+}
+.LemonChiffon {
+    background: LemonChiffon;
+    color: white;
+}
+.LightGoldenrodYellow {
+    background: LightGoldenrodYellow;
+    color: white;
+}
+.PapayaWhip {
+    background: PapayaWhip;
+    color: white;
+}
+.Moccasin {
+    background: Moccasin;
+    color: white;
+}
+.PeachPuff {
+    background: PeachPuff;
+    color: white;
+}
+.PaleGoldenrod {
+    background: PaleGoldenrod;
+    color: white;
+}
+.Khaki {
+    background: Khaki;
+    color: white;
+}
+.DarkKhaki {
+    background: DarkKhaki;
+    color: white;
+}
+
+/* ---- PURPLE ---- */
+.Lavender {
+    background: Lavender;
+    color: white;
+}
+.Thistle {
+    background: Thistle;
+    color: white;
+}
+.Plum {
+    background: Plum;
+    color: white;
+}
+.Violet {
+    background: Violet;
+    color: white;
+}
+.Orchid {
+    background: Orchid;
+    color: white;
+}
+.Fuchsia {
+    background: Fuchsia;
+    color: white;
+}
+.Magenta {
+    background: Magenta;
+    color: white;
+}
+.MediumOrchid {
+    background: MediumOrchid;
+    color: white;
+}
+.MediumPurple {
+    background: MediumPurple;
+    color: white;
+}
+.RebeccaPurple {
+    background: RebeccaPurple;
+    color: white;
+}
+.BlueViolet {
+    background: BlueViolet;
+    color: white;
+}
+.DarkViolet	 {
+    background: DarkViolet	;
+    color: white;
+}
+.DarkOrchid {
+    background: DarkOrchid;
+    color: white;
+}
+.DarkMagenta {
+    background: DarkMagenta;
+    color: white;
+}
+.Purple {
+    background: Purple;
+    color: white;
+}
+.Indigo {
+    background: Indigo;
+    color: white;
+}
+.SlateBlue {
+    background: SlateBlue;
+    color: white;
+}
+.DarkSlateBlue {
+    background: DarkSlateBlue;
+    color: white;
+}
+.MediumSlateBlue {
+    background: MediumSlateBlue;
+    color: white;
+}
+
+/* ---- GREEN ---- */
+.GreenYellow {
+    background: GreenYellow;
+    color: white;
+}
+.Chartreuse {
+    background: Chartreuse;
+    color: white;
+}
+.LawnGreen {
+    background: LawnGreen;
+    color: white;
+}
+.Lime {
+    background: Lime;
+    color: white;
+}
+.LimeGreen {
+    background: LimeGreen;
+    color: white;
+}
+.PaleGreen {
+    background: PaleGreen;
+    color: white;
+}
+.LightGreen {
+    background: LightGreen;
+    color: white;
+}
+.MediumSpringGreen {
+    background: MediumSpringGreen;
+    color: white;
+}
+.SpringGreen {
+    background: SpringGreen;
+    color: white;
+}
+.MediumSeaGreen {
+    background: MediumSeaGreen;
+    color: white;
+}
+.SeaGreen {
+    background: SeaGreen;
+    color: white;
+}
+.ForestGreen {
+    background: ForestGreen;
+    color: white;
+}
+.Green {
+    background: Green;
+    color: white;
+}
+.DarkGreen {
+    background: DarkGreen;
+    color: white;
+}
+.YellowGreen {
+    background: YellowGreen;
+    color: white;
+}
+.OliveDrab {
+    background: OliveDrab;
+    color: white;
+}
+.Olive {
+    background: Olive;
+    color: white;
+}
+.DarkOliveGreen {
+    background: DarkOliveGreen;
+    color: white;
+}
+.MediumAquamarine {
+    background: MediumAquamarine;
+    color: white;
+}
+.DarkSeaGreen {
+    background: DarkSeaGreen;
+    color: white;
+}
+.LightSeaGreen {
+    background: LightSeaGreen;
+    color: white;
+}
+.DarkCyan {
+    background: DarkCyan;
+    color: white;
+}
+.Teal {
+    background: Teal;
+    color: white;
+}
+
+/* ---- BLUE ---- */
+.Aqua {
+    background: Aqua;
+    color: white;
+}
+.Cyan {
+    background: Cyan;
+    color: white;
+}
+.LightCyan {
+    background: LightCyan;
+    color: white;
+}
+.PaleTurquoise {
+    background: PaleTurquoise;
+    color: white;
+}
+.Aquamarine {
+    background: Aquamarine;
+    color: white;
+}
+.Turquoise {
+    background: Turquoise;
+    color: white;
+}
+.MediumTurquoise {
+    background: MediumTurquoise;
+    color: white;
+}
+.DarkTurquoise {
+    background: DarkTurquoise;
+    color: white;
+}
+.CadetBlue {
+    background: CadetBlue;
+    color: white;
+}
+.SteelBlue {
+    background: SteelBlue;
+    color: white;
+}
+.LightSteelBlue {
+    background: LightSteelBlue;
+    color: white;
+}
+.PowderBlue {
+    background: PowderBlue;
+    color: white;
+}
+.LightBlue {
+    background: LightBlue;
+    color: white;
+}
+.SkyBlue {
+    background: SkyBlue;
+    color: white;
+}
+.LightSkyBlue {
+    background: LightSkyBlue;
+    color: white;
+}
+.DeepSkyBlue {
+    background: DeepSkyBlue;
+    color: white;
+}
+.DodgerBlue {
+    background: DodgerBlue;
+    color: white;
+}
+.CornflowerBlue {
+    background: CornflowerBlue;
+    color: white;
+}
+.MediumSlateBlue {
+    background: MediumSlateBlue;
+    color: white;
+}
+.RoyalBlue {
+    background: RoyalBlue;
+    color: white;
+}
+.Blue {
+    background: Blue;
+    color: white;
+}
+.MediumBlue {
+    background: MediumBlue;
+    color: white;
+}
+.DarkBlue {
+    background: DarkBlue;
+    color: white;
+}
+.Navy {
+    background: Navy;
+    color: white;
+}
+.MidnightBlue {
+    background: MidnightBlue;
+    color: white;
+}
+
+/* ---- BROWN ---- */
+.Cornsilk {
+    background: Cornsilk;
+    color: white;
+}
+.BlanchedAlmond {
+    background: BlanchedAlmond;
+    color: white;
+}
+.Bisque {
+    background: Bisque;
+    color: white;
+}
+.NavajoWhite {
+    background: NavajoWhite;
+    color: white;
+}
+.Wheat {
+    background: Wheat;
+    color: white;
+}
+.BurlyWood {
+    background: BurlyWood;
+    color: white;
+}
+.Tan {
+    background: Tan;
+    color: white;
+}
+.RosyBrown {
+    background: RosyBrown;
+    color: white;
+}
+.SandyBrown {
+    background: SandyBrown;
+    color: white;
+}
+.Goldenrod {
+    background: Goldenrod;
+    color: white;
+}
+.DarkGoldenrod {
+    background: DarkGoldenrod;
+    color: white;
+}
+.Peru {
+    background: Peru;
+    color: white;
+}
+.Chocolate {
+    background: Chocolate;
+    color: white;
+}
+.SaddleBrown {
+    background: SaddleBrown;
+    color: white;
+}
+.Sienna {
+    background: Sienna;
+    color: white;
+}
+.Brown {
+    background: Brown;
+    color: white;
+}
+.Maroon {
+    background: Maroon;
+    color: white;
+}
+
+/* ---- WHITE ---- */
+.White {
+    background: White;
+    color: white;
+}
+.Snow {
+    background: Snow;
+    color: white;
+}
+.HoneyDew {
+    background: HoneyDew;
+    color: white;
+}
+.MintCream {
+    background: MintCream;
+    color: white;
+}
+.Azure {
+    background: Azure;
+    color: white;
+}
+.AliceBlue {
+    background: AliceBlue;
+    color: white;
+}
+.GhostWhite {
+    background: GhostWhite;
+    color: white;
+}
+.WhiteSmoke {
+    background: WhiteSmoke;
+    color: white;
+}
+.SeaShell {
+    background: SeaShell;
+    color: white;
+}
+.Beige {
+    background: Beige;
+    color: white;
+}
+.OldLace {
+    background: OldLace;
+    color: white;
+}
+.FloralWhite {
+    background: FloralWhite;
+    color: white;
+}
+.Ivory {
+    background: Ivory;
+    color: white;
+}
+.AntiqueWhite {
+    background: AntiqueWhite;
+    color: white;
+}
+.Linen {
+    background: Linen;
+    color: white;
+}
+.LavenderBlush {
+    background: LavenderBlush;
+    color: white;
+}
+.MistyRose {
+    background: MistyRose;
+    color: white;
+}
+
+/* ---- GRAY ---- */
+.Gainsboro {
+    background: Gainsboro;
+    color: white;
+}
+.LightGray {
+    background: LightGray;
+    color: white;
+}
+.Silver {
+    background: Silver;
+    color: white;
+}
+.DarkGray {
+    background: DarkGray;
+    color: white;
+}
+.Gray {
+    background: Gray;
+    color: white;
+}
+.DimGray {
+    background: DimGray;
+    color: white;
+}
+.LightSlateGray {
+    background: LightSlateGray;
+    color: white;
+}
+.SlateGray {
+    background: SlateGray;
+    color: white;
+}
+.DarkSlateGray {
+    background: DarkSlateGray;
+    color: white;
+}
+.Black {
+    background: Black;
+    color: white;
 }
