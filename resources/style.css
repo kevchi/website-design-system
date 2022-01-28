@@ -14,7 +14,7 @@ body {
 
 
 header {
-    background:rgba(180, 157, 181, 0.468);
+    background: #48484645;
     text-align: center;
     padding-right: 170px;
 }
@@ -25,6 +25,7 @@ header {
     height: 4000px;
     margin: 0 auto;
     padding: 20px 0;   
+    background: rgba(255, 255, 255, 0.454);
 }
 
 nav {
@@ -91,7 +92,7 @@ iframe[class^="default"], iframe:target {
     height: 218px; */
     margin: 0 1px 9px 9px;
     width: 683px;
-    height: 191px;
+    height: 311px;
     /*background-color: rgba(128, 128, 128, 0.454);*/
     opacity: 1;
     transition-delay: 150ms;
@@ -109,8 +110,8 @@ iframe[class^="default"], iframe:target {
 /* Open & close containers */
 [class$="container"] {
     border: 1px solid rgba(72, 66, 66, 0.468);
-    min-height: 200px;
-    max-height: 200px;
+    min-height: 320px;
+    max-height: 320px;
     padding: 8px;
     overflow:hidden;
     transition: min-height 0.2s ease-out;
@@ -121,6 +122,7 @@ iframe[class^="default"], iframe:target {
     overflow: auto;
     min-height: 566px;
     transition: min-height 0.15s ease-in;
+    
 }
 
 iframe {
