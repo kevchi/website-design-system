@@ -109,7 +109,7 @@ iframe[class^="default"], iframe:target {
 /* Open & close containers */
 [class$="container"] {
     border: 1px solid rgba(72, 66, 66, 0.468);
-    min-height: 566px;
+    min-height: 200px;
     max-height: 200px;
     padding: 8px;
     overflow:hidden;

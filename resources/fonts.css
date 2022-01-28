@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=Josefin+Slab:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Zilla+Slab:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=Josefin+Slab:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Zilla+Slab:ital,wght@0,400;0,700;1,400&family=Cormorant:ital,wght@0,400;0,700;1,400&family=Vollkorn:ital,wght@0,400;0,700;1,400&family=Trirong:ital,wght@0,400;0,700;1,400&family=Newsreader:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,400&family=Asap:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,400;0,700;1,400&family=Overpass:ital,wght@0,400;0,700;1,400&family=Catamaran:ital,wght@0,400;0,700;1,400&family=Grandstander:ital,wght@0,400;0,700;1,400&family=Gluten:ital,wght@0,400;0,700;1,400&family=Overlock:ital,wght@0,400;0,700;1,400&family=Oxanium:ital,wght@0,400;0,700;1,400&family=Mirza:ital,wght@0,400;0,700;1,400&family=Atma:ital,wght@0,400;0,700;1,400&family=Inconsolata:ital,wght@0,400;0,700;1,400&family=Cousine:ital,wght@0,400;0,700;1,400&family=VT323:ital,wght@0,400;0,700;1,400&family=Xanh+Mono:ital,wght@0,400;0,700;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Cookie:ital,wght@0,400;0,700;1,400&family=Sacramento:ital,wght@0,400;0,700;1,400&family=Comforter:ital,wght@0,400;0,700;1,400&family=Caveat:ital,wght@0,400;0,700;1,400&family=Satisfy:ital,wght@0,400;0,700;1,400&family=Waterfall:ital,wght@0,400;0,700;1,400&family=Great+Vibes:ital,wght@0,400;0,700;1,400&family=Reenie+Beanie:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
     padding: 0;
@@ -20,11 +20,14 @@ body {
     margin-right: 2px;
     margin-bottom: 2px;
     transition-duration: 0.2s;
+    transition-delay: 50ms;
     /* center */
     text-align: center;
     display:flex;
     justify-content: left;
     align-items: center;
+    font-size: 16px;
+    line-height: 1em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -34,6 +37,7 @@ body {
     width: 340px;
     padding: 10px;
     transition-duration: 0.2s;
+    transition-delay: 50ms;
 }
 
 .url {
@@ -43,9 +47,10 @@ body {
     opacity: 0;
     font-size: 14px;
     transition-duration: 0.2s;
+    transition-delay: 100ms;
     text-indent: 0px;
+    text-align: left;
     word-break: break-all;
-    text-align: justify;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -63,30 +68,131 @@ body {
 
 /* Serifs */
 
-/*
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Josefin Slab', serif;
-font-family: 'Merriweather', serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Zilla Slab', serif;
-*/
-
 .Cormorant {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant', serif;
+}
+.Vollkorn {
+    font-family: 'Vollkorn', serif;
+    font-size: 15px;
 }
 .Josefin {
     font-family: 'Josefin Slab', serif;
+    font-size: 15px;
 }
 .Merriweather {
     font-family: 'Merriweather', serif;
+    font-size: 13px;
 }
 .Playfair {
     font-family: 'Playfair Display', serif;
+    font-size: 15px;
 }
 .Zilla {
     font-family: 'Zilla Slab', serif;
+    font-size: 15px;
+}
+.Trirong {
+    font-family: 'Trirong', serif;
+    font-size: 13px;
+}
+.Newsreader {
+    font-family: 'Newsreader', serif;
+    font-size: 15px;
 }
 
-
-
 /* Sans-Serifs */
+
+.Roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.Asap {
+    font-family: 'Asap', sans-serif;
+}
+.Montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.Lato {
+    font-family: 'Lato', sans-serif;
+}
+.Overpass {
+    font-family: 'Overpass', sans-serif;
+}
+.Catamaran {
+    font-family: 'Catamaran', sans-serif;
+}
+
+/* Display */
+
+.Grandstander {
+    font-family: 'Grandstander';
+}
+.Gluten {
+    font-family: 'Gluten';
+}
+.Overlock {
+    font-family: 'Overlock';
+}
+.Oxanium {
+    font-family: 'Oxanium';
+}
+.Mirza {
+    font-family: 'Mirza';
+}
+.Atma {
+    font-family: 'Atma';
+}
+
+/* Handwriting */
+
+.Comforter {
+    font-family: 'Comforter';
+    font-size: 20px;
+}
+.Caveat {
+    font-family: 'Caveat';
+    font-size: 18px;
+}
+.Satisfy {
+    font-family: 'Satisfy';
+}
+.Cookie {
+    font-family: 'Cookie';
+    font-size: 20px;
+}
+.Sacramento {
+    font-family: 'Sacramento';
+    font-size: 20px;
+}
+.Waterfall {
+    font-family: 'Waterfall';
+    font-size: 24px;
+}
+.Great-Vibes {
+    font-family: 'Great Vibes';
+    font-size: 20px;
+}
+.Reenie-Beanie {
+    font-family: 'Reenie Beanie';
+    font-size: 18px;
+}
+
+/* Monospace */
+
+.Inconsolata {
+    font-family: 'Inconsolata', monospace;
+}
+.Cousine {
+    font-family: 'Cousine', monospace;
+}
+.VT323 {
+    font-family: 'VT323', monospace;
+}
+.Xanh-Mono {
+    font-family: 'Xanh Mono', monospace;
+}
+.Space-Mono {
+    font-family: 'Space Mono', monospace;
+}
+.Source-Code-Pro {
+    font-family: 'Source Code Pro', monospace;
+}
