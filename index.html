@@ -17,9 +17,8 @@
         <section id="content">
             <!--Sidebar navigaition, sticky-->
             <nav>
-                <a href="#colors">Colors</a>
+                <a href="#colors">Colors (all)</a>
                 <ul>
-                    <li><a href="#all" class="rel">all</a></li>
                     <li><a href="#red" class="rel">red</a></li>
                     <li><a href="#pink" class="rel">pink</a></li>
                     <li><a href="#orange" class="rel">orange</a></li>
@@ -31,7 +30,10 @@
                     <li><a href="#white" class="rel">white</a></li>
                     <li><a href="#gray" class="rel">gray</a></li>
                 </ul>
-                <br><a href="#">Text-styles</a>
+                <br><a href="#fonts">Text-styles</a>
+                <ul>
+                    <li><a href="#serifs" class="rel">serifs</a></li>
+                </ul>
             </nav>
             <section id="sections">
                 <section id="colors">
@@ -48,36 +50,15 @@
                             <iframe id="brown" class="color-container" src="colors/colorBoxes_8_brown.html" seamless></iframe>
                             <iframe id="white" class="color-container" src="colors/colorBoxes_9_white.html" seamless></iframe>
                             <iframe id="gray" class="color-container" src="colors/colorBoxes_10_gray.html" seamless></iframe>
-                            <iframe id="all" class="color-container" src="colors/colorboxes.html" seamless></iframe>    
+                            <iframe class="default-color-container" src="colors/colorboxes.html" seamless></iframe>    
                         </div>       
                 </section>
-                <section>
+                <section id="fonts">
                     <h2>Fonts</h2>
-                    <div class="fonts-container">
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        <h1>hi</h1>
-                        
+                    <div id="iframe-container">
+                        <div class="inner-shadow"></div>
+                        <iframe id="serifs" class="fonts-container" src="fonts/serifs.html" seamless></iframe>   
+                        <iframe class="default-fonts-container" src="fonts/all.html" seamless></iframe>   
                     </div>
                 </section>
                 <section>

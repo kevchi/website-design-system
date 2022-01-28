@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=Josefin+Slab:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Zilla+Slab:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 684px;
+}
+
+section[id]:first-child {
+    border-top-width: 1px;
+}
+
+section[id] {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-width: 0px 1px 1px 1px;
+}
+
+span {
+    position: absolute;
+    font-size: 11px;
+    opacity: 0.0;
+    left: 100px;
+    padding: 20px;
+    transition-duration: 0.2s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section[id]:hover h2, section[id]:hover p {
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+section[id]:hover span {
+    opacity: 1;
+    transition-duration: 0.2s;
+}
+
+p:first-child {
+    border-top-width: 1px;
+    border-left: 0px;
+    padding: 0 8px;
+    font-weight: bold;
+    font-size: 20px
+}
+
+p {
+    padding: 12px;
+    border-left: 1px solid grey;
+}
+
+/* Serifs */
+
+/*
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Zilla Slab', serif;
+*/
+
+#Cormorant {
+    font-family: 'Cormorant Garamond', serif;
+}
+#Josefin {
+    font-family: 'Josefin Slab', serif;
+}
+#Merriweather {
+    font-family: 'Merriweather', serif;
+}
+#Playfair {
+    font-family: 'Playfair Display', serif;
+}
+#Zilla {
+    font-family: 'Zilla Slab', serif;
+}
+
+
+
+/* Sans-Serifs */

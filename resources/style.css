@@ -62,12 +62,12 @@ a:hover {
 }
 
 /* Hide sub-iframes & default (all) when any other is clicked*/
-iframe, iframe:target ~ iframe[src$="boxes.html"] {
+iframe, iframe:target ~ iframe[class^="default"] {
     display:none;
 }
 
 /* show targeted iframe, or default */
-iframe[src$="boxes.html"], iframe:target {
+iframe[class^="default"], iframe:target {
     display:block;
 }
 
@@ -82,6 +82,7 @@ iframe[src$="boxes.html"], iframe:target {
     position: relative;
 }
 
+/* Show & hide inner shadow */
 .inner-shadow {
     position: absolute;
     z-index: 2;
@@ -125,56 +126,6 @@ iframe[src$="boxes.html"], iframe:target {
 iframe[class$="container"]:hover {
     min-height: 566px;
 }
-
-/* color box styling */
-.colorBox {
-    border: 1px solid rgba(99, 96, 96, 0.228);
-    float: left;
-    height: 135px;
-    width: 135px;
-    border-radius: 10px;
-    margin-right: 2px;
-    margin-bottom: 2px;
-    transition-duration: 0.2s;
-    /* center */
-    text-align: center;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 0.8em;
-}
-
-/* color name */
-.colorBox > p:first-child{
-    position:absolute;
-    font-size: 1.4em;
-    opacity: 1;
-    transition-duration: 0.2s;
-}
-
-.colorcode {
-    position:relative;
-    opacity: 0;
-    transition-duration: 0.2s;
-}
-
-.colorBox:hover > p:first-child {
-    opacity: 0;
-    transition-duration: 0.1s;
-}
-
-.colorBox:hover > p[class] {
-    opacity: 1;
-    transition-duration: 0.2s;
-}
-
-/* edge  blur on hover - slightly changes the color  
-.colorBox:hover {
-    box-shadow: inset 0px 0px 70px 0px #3f3b3b4f;
-    transition-duration: 0.2s;
-}
-/* --- */
 
 iframe {
     border: none;

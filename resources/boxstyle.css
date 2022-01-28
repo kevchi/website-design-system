@@ -6,6 +6,60 @@ body:hover {
     overflow: auto;
 }
 
+/* color box styling */
+.colorBox {
+    border: 1px solid rgba(99, 96, 96, 0.228);
+    color: rgb(26, 26, 26);
+    float: left;
+    height: 135px;
+    width: 135px;
+    border-radius: 10px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    transition-duration: 0.2s;
+    /* center */
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8em;
+}
+
+.colorBox .colorcode {
+    font-size: 14px;
+}
+
+.colorBox > p:first-child{
+    position:absolute;
+    font-size: 1.4em;
+    opacity: 1;
+    transition-duration: 0.2s;
+}
+
+.colorcode {
+    position:relative;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.colorBox:hover > p:first-child {
+    opacity: 0;
+    transition-duration: 0.1s;
+}
+
+.colorBox:hover > p[class] {
+    opacity: 1;
+    transition-duration: 0.2s;
+}
+
+/* edge  blur on hover - slightly changes the color  
+.colorBox:hover {
+    box-shadow: inset 0px 0px 70px 0px #3f3b3b4f;
+    transition-duration: 0.2s;
+}
+/* --- */
+
 /* ---- RED ---- */
 .IndianRed {
     background: IndianRed;
@@ -47,11 +101,9 @@ body:hover {
 /* ---- PINK ---- */
 .Pink {
     background: Pink;
-    color: white;
 }
 .LightPink {
     background: LightPink;
-    color: white;
 }
 .HotPink {
     background: HotPink;
@@ -99,43 +151,34 @@ body:hover {
 /* ---- YELLOW ---- */
 .Gold {
     background: Gold;
-    color: white;
 }
 .Yellow {
     background: Yellow;
-    color: white;
 }
 .LightYellow {
     background: LightYellow;
-    color: white;
 }
 .LemonChiffon {
     background: LemonChiffon;
-    color: white;
 }
 .LightGoldenrodYellow {
     background: LightGoldenrodYellow;
-    color: white;
+    font-size: 10px;
 }
 .PapayaWhip {
     background: PapayaWhip;
-    color: white;
 }
 .Moccasin {
     background: Moccasin;
-    color: white;
 }
 .PeachPuff {
     background: PeachPuff;
-    color: white;
 }
 .PaleGoldenrod {
     background: PaleGoldenrod;
-    color: white;
 }
 .Khaki {
     background: Khaki;
-    color: white;
 }
 .DarkKhaki {
     background: DarkKhaki;
@@ -145,11 +188,9 @@ body:hover {
 /* ---- PURPLE ---- */
 .Lavender {
     background: Lavender;
-    color: white;
 }
 .Thistle {
     background: Thistle;
-    color: white;
 }
 .Plum {
     background: Plum;
@@ -223,19 +264,15 @@ body:hover {
 /* ---- GREEN ---- */
 .GreenYellow {
     background: GreenYellow;
-    color: white;
 }
 .Chartreuse {
     background: Chartreuse;
-    color: white;
 }
 .LawnGreen {
     background: LawnGreen;
-    color: white;
 }
 .Lime {
     background: Lime;
-    color: white;
 }
 .LimeGreen {
     background: LimeGreen;
@@ -243,19 +280,16 @@ body:hover {
 }
 .PaleGreen {
     background: PaleGreen;
-    color: white;
 }
 .LightGreen {
     background: LightGreen;
-    color: white;
 }
 .MediumSpringGreen {
     background: MediumSpringGreen;
-    color: white;
+    font-size: 10px;
 }
 .SpringGreen {
     background: SpringGreen;
-    color: white;
 }
 .MediumSeaGreen {
     background: MediumSeaGreen;
@@ -295,7 +329,7 @@ body:hover {
 }
 .MediumAquamarine {
     background: MediumAquamarine;
-    color: white;
+    font-size: 11px;
 }
 .DarkSeaGreen {
     background: DarkSeaGreen;
@@ -317,23 +351,18 @@ body:hover {
 /* ---- BLUE ---- */
 .Aqua {
     background: Aqua;
-    color: white;
 }
 .Cyan {
     background: Cyan;
-    color: white;
 }
 .LightCyan {
     background: LightCyan;
-    color: white;
 }
 .PaleTurquoise {
     background: PaleTurquoise;
-    color: white;
 }
 .Aquamarine {
     background: Aquamarine;
-    color: white;
 }
 .Turquoise {
     background: Turquoise;
@@ -361,11 +390,9 @@ body:hover {
 }
 .PowderBlue {
     background: PowderBlue;
-    color: white;
 }
 .LightBlue {
     background: LightBlue;
-    color: white;
 }
 .SkyBlue {
     background: SkyBlue;
@@ -419,23 +446,18 @@ body:hover {
 /* ---- BROWN ---- */
 .Cornsilk {
     background: Cornsilk;
-    color: white;
 }
 .BlanchedAlmond {
     background: BlanchedAlmond;
-    color: white;
 }
 .Bisque {
     background: Bisque;
-    color: white;
 }
 .NavajoWhite {
     background: NavajoWhite;
-    color: white;
 }
 .Wheat {
     background: Wheat;
-    color: white;
 }
 .BurlyWood {
     background: BurlyWood;
@@ -489,81 +511,62 @@ body:hover {
 /* ---- WHITE ---- */
 .White {
     background: White;
-    color: white;
 }
 .Snow {
     background: Snow;
-    color: white;
 }
 .HoneyDew {
     background: HoneyDew;
-    color: white;
 }
 .MintCream {
     background: MintCream;
-    color: white;
 }
 .Azure {
     background: Azure;
-    color: white;
 }
 .AliceBlue {
     background: AliceBlue;
-    color: white;
 }
 .GhostWhite {
     background: GhostWhite;
-    color: white;
 }
 .WhiteSmoke {
     background: WhiteSmoke;
-    color: white;
 }
 .SeaShell {
     background: SeaShell;
-    color: white;
 }
 .Beige {
     background: Beige;
-    color: white;
 }
 .OldLace {
     background: OldLace;
-    color: white;
 }
 .FloralWhite {
     background: FloralWhite;
-    color: white;
 }
 .Ivory {
     background: Ivory;
-    color: white;
 }
 .AntiqueWhite {
     background: AntiqueWhite;
-    color: white;
 }
 .Linen {
     background: Linen;
-    color: white;
 }
 .LavenderBlush {
     background: LavenderBlush;
-    color: white;
 }
 .MistyRose {
     background: MistyRose;
-    color: white;
 }
 
 /* ---- GRAY ---- */
 .Gainsboro {
     background: Gainsboro;
-    color: white;
 }
 .LightGray {
     background: LightGray;
-    color: white;
 }
 .Silver {
     background: Silver;
