@@ -1,84 +1,62 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body {
+    overflow-y: scroll;
+    color: #495057;
 }
 
-body { 
-    padding: 20px;
+body:hover {
+    overflow: auto;
 }
 
-[class^=fas] {
-    color: black;
-    font-size: 70px;
-    margin-top: 4px;
-    transition-duration: 0.1s;
-}
-
-[class^=fas]:hover {
-    color: purple;
-    transition-duration: 0.1s;
-}
-
-.symbol-box {
+/* color box styling */
+.symbol {
     border: 1px solid rgba(99, 96, 96, 0.228);
-    color: rgb(26, 26, 26);
+    
     float: left;
-    height: 100px;
-    width: 100px;
+    height: 84;
+    width: 84;
     border-radius: 10px;
     margin-right: 2px;
     margin-bottom: 2px;
     transition-duration: 0.2s;
-    transition-delay: 50ms;
     /* center */
     text-align: center;
     display:flex;
     justify-content: center;
-    align-items: top;
-    font-size: 16px;
-    line-height: 1em;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.6em;
 }
 
-.symbol-box div{
+.symbol .symbolcode {
+    font-size: 14px;
+}
+
+.symbol > i{
     position:absolute;
+    font-size: 30px;
     opacity: 1;
-    width: 340px;
-    padding: 10px;
     transition-duration: 0.2s;
 }
 
-.url {
+.symbolcode {
     position:relative;
-    width: 300px;
-    margin: 20px;
     opacity: 0;
-    font-size: 14px;
-    transition-duration: 0.1s;
-    text-indent: 0px;
-    text-align: left;
-    word-break: break-all;
-    font-family: 'Courier New', Courier, monospace;
+    transition-duration: 0.2s;
 }
 
-/*
-.symbol-box:hover > div {
+.symbol:hover > i {
     opacity: 0;
     transition-duration: 0.1s;
-}*/
+}
 
-.symbol-box:hover > p[class] {
+.symbol:hover > p[class] {
     opacity: 1;
     transition-duration: 0.2s;
 }
 
-.symbol-box:hover {
+/* edge  blur on hover - slightly changes the color  
+.symbol:hover {
+    box-shadow: inset 0px 0px 70px 0px #3f3b3b4f;
     transition-duration: 0.2s;
-    height: 120px;
 }
-
-p[class] {
-    margin: 90px -5px 0px 6px;
-    font-size: 14px;
-}
+/* --- */
