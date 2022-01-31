@@ -75,10 +75,12 @@ nav ul {
 a:link, a:visited {
     text-decoration: none;
     color: black;
+    transition-duration: 0.1s;
 }
 
 a:hover {
     color: grey;
+    transition-duration: 0.1s;
 }
 
 #fa { 

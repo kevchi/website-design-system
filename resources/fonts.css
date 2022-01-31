@@ -79,32 +79,53 @@ body {
 }
 .Vollkorn {
     font-family: 'Vollkorn', serif;
+}
+.Vollkorn div {
     font-size: 15px;
 }
+
 .Josefin {
     font-family: 'Josefin Slab', serif;
+}
+.Josefin div {
     font-size: 15px;
 }
+
 .Merriweather {
     font-family: 'Merriweather', serif;
+}
+.Merriweather div {
     font-size: 13px;
 }
+
 .Playfair {
     font-family: 'Playfair Display', serif;
+}
+.Playfair div {
     font-size: 15px;
 }
+
 .Zilla {
     font-family: 'Zilla Slab', serif;
+}
+.Zilla div {
     font-size: 15px;
 }
+
 .Trirong {
     font-family: 'Trirong', serif;
+}
+.Trirong div {
     font-size: 13px;
 }
+
 .Newsreader {
     font-family: 'Newsreader', serif;
+}
+.Newsreader div {
     font-size: 15px;
 }
+
 
 /* Sans-Serifs */
 
@@ -152,35 +173,56 @@ body {
 
 .Comforter {
     font-family: 'Comforter';
+}
+.Comforter div {
     font-size: 20px;
 }
+
 .Caveat {
     font-family: 'Caveat';
+}
+.Caveat div {
     font-size: 18px;
 }
+
 .Satisfy {
     font-family: 'Satisfy';
 }
 .Cookie {
     font-family: 'Cookie';
+}
+.Cookie div {
     font-size: 20px;
 }
+
 .Sacramento {
     font-family: 'Sacramento';
+}
+.Sacramento div {
     font-size: 20px;
 }
+
 .Waterfall {
     font-family: 'Waterfall';
+}
+.Waterfall div {
     font-size: 24px;
 }
+
 .Great-Vibes {
     font-family: 'Great Vibes';
+}
+.Great-Vibes div {
     font-size: 20px;
 }
+
 .Reenie-Beanie {
     font-family: 'Reenie Beanie';
+}
+.Reenie-Beanie div {
     font-size: 18px;
 }
+
 
 /* Monospace */
 
