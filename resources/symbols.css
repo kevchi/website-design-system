@@ -60,3 +60,37 @@ body:hover {
     transition-duration: 0.2s;
 }
 /* --- */
+
+/* Code coloring */
+
+#setup {
+    line-height: 1;
+    padding: 14px;
+}
+
+#setup .symbol + p {
+    clear: left;
+}
+
+code {
+    color: #868e96;
+    line-height: 19px;
+    font-size: 12px;
+}
+
+.line {
+    background: #343a40;
+    padding: 2px 0;
+}
+
+code .o {
+    color: #fd7e14;
+}
+
+code .y {
+    color: #ffd8a8;
+}
+
+code .w {
+    color: white;
+}

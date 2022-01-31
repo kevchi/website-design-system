@@ -81,6 +81,14 @@ a:hover {
     color: grey;
 }
 
+#fa { 
+    text-decoration: underline;
+}
+
+#fa:hover {
+    color: rgb(94, 94, 94);
+}
+
 #sections {
     width: 81%;
     float: left;
@@ -123,7 +131,7 @@ iframe[class^="default"], iframe:target {
     transition-delay: 150ms;
     transition-duration: 0.2s;
     pointer-events: none;
-    box-shadow: inset 0 -30px 30px -20px white;
+    box-shadow: inset 0 -30px 30px -20px rgb(229, 240, 242);
 }
 
 #iframe-container:hover > div {
